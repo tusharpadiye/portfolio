@@ -1,15 +1,31 @@
 //import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Screens/Home';
+import Contact from './Screens/Contact';
+import About from './Screens/About';
+import Projects from './Screens/Projects';
 
-import {BrowserRouter as Router} from "react-router-dom";
+
+
+
 function App() {
   return (
-    <Router>
+    
       <div >
-       
+          <Routes>
+             <Route path='/' element={<Home/>}/>
+             <Route path='/contact' element={<Contact/>}/>
+             <Route path='/about' element={<About/>}/>
+             <Route path='/projects' element={<Projects/>}/>
+
+          </Routes>
+          
+          
+          
       </div>
 
-    </Router>
+
   );
 }
 
