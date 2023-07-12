@@ -6,10 +6,10 @@ import Card from '../Components/Card'
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <Navbar/>
       <HeroImage/>
-      <Card/>  
+     
       <Footer/>
     </div>
   )

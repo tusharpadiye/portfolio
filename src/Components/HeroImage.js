@@ -12,7 +12,7 @@ export default function HeroImage() {
         </div>
         <div className='content'>
             <p>HI, I'M TUSHAR</p>
-            <h1>WEB DEVELOPER</h1>
+            <h1>WEB DEVELOPER </h1>
             <div>
                 <Link to="/projects" className='btn'>PROJECTS</Link>
                 <Link to="/contact" className='btn btn-light'>CONTACT</Link>

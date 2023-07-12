@@ -3,7 +3,6 @@
     padding: 6rem 0;
     background-color: rgba(19, 19, 19, 0.8);
 }
-
 .footer-box{
     max-width: 1140px;
     margin: auto;
@@ -23,7 +22,7 @@
 }
 
 .location{
-    display: flex;
+    display:flex;
     margin-bottom: 0.8rem;
     
 }
@@ -59,5 +58,6 @@ p{
         grid-template-columns: 1fr;
         
     }
+
     
 }

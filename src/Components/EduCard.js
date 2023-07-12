@@ -31,6 +31,7 @@ export default function EduCard() {
           edudata.map((data)=>{
             return(
               <Edudatacard 
+                  link={data.link}
                   name={data.name}
                   img={data.img}
                   degree={data.degree}
@@ -38,6 +39,8 @@ export default function EduCard() {
                   time={data.time}
                   type={data.type}
                   result={data.result}
+                  degreetype={data.degreetype}
+                  subtext={data.subtext}
                   />
 
             )

@@ -5,7 +5,7 @@ import EduCard from '../Components/EduCard'
 
 export default function Education() {
   return (
-    <div>
+    <div >
         <Navbar/>
       <EduCard/>
       <Footer/>

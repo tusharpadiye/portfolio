@@ -6,6 +6,7 @@ import Contact from './Screens/Contact';
 import About from './Screens/About';
 import Projects from './Screens/Projects';
 import Education from './Screens/Education';
+import Skills from './Screens/Skills';
 
 
 
@@ -20,6 +21,7 @@ function App() {
              <Route path='/about' element={<About/>}/>
              <Route path='/projects' element={<Projects/>}/>
              <Route path='/education' element={<Education/>}/>
+             <Route path='/skills' element={<Skills/>}/>
           </Routes>
           
           

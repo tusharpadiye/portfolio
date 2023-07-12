@@ -5,7 +5,7 @@ import Hero from '../Components/Hero'
 import Card from '../Components/Card'
 export default function Projects() {
   return (
-    <div>
+    <div >
       <Navbar />
       <Hero heading="PROJECTS" text="Some of my most recent works"/>
       <Card/>

@@ -5,7 +5,7 @@ import Hero from '../Components/Hero'
 import Aboutcomp from '../Components/Aboutcomp'
 export default function About() {
   return (
-    <div>
+    <div >
       <Navbar/>
       <Hero heading="About" text="I'm a Full Stack Developer" />
       <Aboutcomp/>
