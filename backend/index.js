@@ -4,7 +4,7 @@ const port = 5000
 const connector = require("./db")
 
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin","https://64b0154b7f7c0403b0dc78d0--helpful-llama-743214.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept , Authorization"
