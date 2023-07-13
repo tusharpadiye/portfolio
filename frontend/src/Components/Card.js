@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Card.css";
-import pro1 from '../Assets/project1.png'
+
 import Prodata from "./Prodata";
 
 export default function Card() {
