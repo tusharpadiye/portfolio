@@ -1,6 +1,10 @@
-const mongoose = require('mongoose');
-const mURL='mongodb+srv://tushar07padiye:tushar123@mydata.q8h8jjv.mongodb.net/informationown?retryWrites=true&w=majority' // add password and database name before ?retryWr
+const mongoose = require('mongoose')
+
+require('dotenv').config()
+
+const mURL=process.env.LINK;
 const connecttoMongodb = ()=>{
+    
      mongoose.connect(mURL, { useNewUrlParser: true },(err, result)=>{
         if(err)
         {
