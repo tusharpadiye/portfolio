@@ -7,7 +7,7 @@ export default function Card() {
 
   const [prodata,setprodata]=useState([]);
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/displaydata", {
+    let response = await fetch("https://portfolio-d86i.onrender.com/api/displaydata", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

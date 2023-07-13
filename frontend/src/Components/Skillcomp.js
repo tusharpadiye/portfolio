@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Skillcomp.css";
-import i1 from "../Assets/CppBanner.png";
-import Rate from "./Rate";
+
 import Skillcard from "./Skillcard"
 export default function Skillcomp() {
   
   const [skilldata,setskilldata]=useState([]);
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/displaydata", {
+    let response = await fetch("https://portfolio-d86i.onrender.com/api/displaydata", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
