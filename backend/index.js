@@ -18,7 +18,7 @@ app.listen(port, () => {
 })
 
 app.use((req,res,next)=>{
-    res.setHeader("Access-Control-Allow-Origin","http://64b00e96d03a7000abb3dd30--gorgeous-starship-509d35.netlify.app/");
+    res.setHeader("Access-Control-Allow-Origin","http://64b00e96d03a7000abb3dd30--gorgeous-starship-509d35.netlify.app");
     res.header(
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept , Authorization"
